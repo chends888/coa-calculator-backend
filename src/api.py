@@ -6,18 +6,18 @@ import os
 
 app = FastAPI()
 
-origins = [
-    "http://localhost:3000",
-    "localhost:3000"
-]
+# origins = [
+#     "http://localhost:3000",
+#     "localhost:3000"
+# ]
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"]
-)
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=origins,
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"]
+# )
 
 exp_data_file = open(os.path.dirname(__file__) + '/../exp_data.json')
 exp_data = json.load(exp_data_file)
