@@ -131,3 +131,5 @@ dmypy.json
 **/.vscode
 **/__pycache__
 **/venv
+# Local Netlify folder
+.netlify
