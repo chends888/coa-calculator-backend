@@ -1,0 +1,268 @@
+{
+  "Smithing": {
+    "Bronze": {
+      "level": "1",
+      "xp": "8",
+      "submaterials": {
+        "Copper": "2",
+        "Tin": "2"
+      }
+    },
+    "Iron": {
+      "level": "10",
+      "xp": "22",
+      "submaterials": {
+        "Iron": "3"
+      }
+    },
+    "Steel": {
+      "level": "20",
+      "xp": "34",
+      "submaterials": {
+        "Iron": "2",
+        "Coal": "1"
+      }
+    },
+    "Crimsteel": {
+      "level": "30",
+      "xp": "155",
+      "submaterials": {
+        "Crimsteel": "2",
+        "Coal": "2"
+      }
+    },
+    "Gold": {
+      "level": "40",
+      "xp": "21260",
+      "submaterials": {
+        "Gold": "2"
+      }
+    },
+    "Mythan": {
+      "level": "50",
+      "xp": "5100",
+      "submaterials": {
+        "Mythan": "10",
+        "Coal": "5"
+      }
+    },
+    "Cobalt": {
+      "level": "60",
+      "xp": "15200",
+      "submaterials": {
+        "Cobalt": "8",
+        "Coal": "5"
+      }
+    },
+    "Varaxite": {
+      "level": "70",
+      "xp": "20350",
+      "submaterials": {
+        "Varaxium": "6",
+        "Cobalt": "3"
+      }
+    }
+  },
+  "Cooking": {
+    "Anchovies": {
+      "level": "1",
+      "xp": "10",
+      "submaterials": {
+        "Anchovies": "1",
+        "Salt": "1"
+      }
+    },
+    "Mackerel": {
+      "level": "10",
+      "xp": "50",
+      "submaterials": {
+        "Mackerel": "1",
+        "Salt": "1"
+      }
+    },
+    "Squid": {
+      "level": "20",
+      "xp": "115",
+      "submaterials": {
+        "Squid": "1",
+        "Salt": "1"
+      }
+    },
+    "Sardine": {
+      "level": "20",
+      "xp": "375",
+      "submaterials": {
+        "Sardine": "1",
+        "Salt": "1"
+      }
+    },
+    "Eel": {
+      "level": "40",
+      "xp": "500",
+      "submaterials": {
+        "Eel": "1",
+        "Salt": "1"
+      }
+    },
+    "Anglerfish": {
+      "level": "45",
+      "xp": "625",
+      "submaterials": {
+        "Anglerfish": "1",
+        "Salt": "1"
+      }
+    },
+    "Trout": {
+      "level": "50",
+      "xp": "750",
+      "submaterials": {
+        "Trout": "1",
+        "Salt": "1"
+      }
+    },
+    "Bass": {
+      "level": "60",
+      "xp": "1350",
+      "submaterials": {
+        "Bass": "1",
+        "Pink Salt": "1"
+      }
+    },
+    "Tuna": {
+      "level": "70",
+      "xp": "2000",
+      "submaterials": {
+        "Tuna": "1",
+        "Pink Salt": "1"
+      }
+    },
+    "Lobster": {
+      "level": "75",
+      "xp": "3500",
+      "submaterials": {
+        "Lobster": "1",
+        "Pink Salt": "1"
+      }
+    },
+    "Sea Turtle": {
+      "level": "80",
+      "xp": "6500",
+      "submaterials": {
+        "Sea Turtle": "1",
+        "Pink Salt": "1"
+      }
+    },
+    "Manta Ray": {
+      "level": "85",
+      "xp": "9500",
+      "submaterials": {
+        "Manta Ray": "1",
+        "Pink Salt": "1"
+      }
+    },
+    "Shark": {
+      "level": "90",
+      "xp": "13500",
+      "submaterials": {
+        "Shark": "1",
+        "Black Salt": "1"
+      }
+    },
+    "Orca": {
+      "level": "95",
+      "xp": "22500",
+      "submaterials": {
+        "Orca": "1",
+        "Black Salt": "1"
+      }
+    },
+    "Giant Squid": {
+      "level": "100",
+      "xp": "41500",
+      "submaterials": {
+        "Giant Squid": "1",
+        "Black Salt": "1"
+      }
+    }
+  },
+  "Crafting": {
+    "Accuracy": {
+      "level": "1",
+      "xp": "3",
+      "submaterials": {
+        "Pine Logs": "1"
+      }
+    },
+    "Guarding": {
+      "level": "5",
+      "xp": "8",
+      "submaterials": {
+        "Dead Logs": "1"
+      }
+    },
+    "Healing": {
+      "level": "10",
+      "xp": "18",
+      "submaterials": {
+        "Birch Logs": "1"
+      }
+    },
+    "Wealth": {
+      "level": "40",
+      "xp": "40",
+      "submaterials": {
+        "Applewood": "1"
+      }
+    },
+    "Power": {
+      "level": "30",
+      "xp": "105",
+      "submaterials": {
+        "Willow Logs": "1"
+      }
+    },
+    "Nature": {
+      "level": "40",
+      "xp": "200",
+      "submaterials": {
+        "Oak Logs": "1"
+      }
+    },
+    "Fire": {
+      "level": "50",
+      "xp": "425",
+      "submaterials": {
+        "Chestnut Logs": "1"
+      }
+    },
+    "Damage": {
+      "level": "60",
+      "xp": "900",
+      "submaterials": {
+        "Maple Logs": "1"
+      }
+    },
+    "Leeching": {
+      "level": "70",
+      "xp": "1400",
+      "submaterials": {
+        "Olive Logs": "1"
+      }
+    },
+    "Experience": {
+      "level": "75",
+      "xp": "1850",
+      "submaterials": {
+        "Maple Logs": "1",
+        "Olive Logs": "1"
+      }
+    },
+    "Cursed": {
+      "level": "80",
+      "xp": "2750",
+      "submaterials": {
+        "Palm Wood": "2"
+      }
+    }
+  }
+}

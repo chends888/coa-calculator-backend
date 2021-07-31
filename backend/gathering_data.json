@@ -1,0 +1,10 @@
+{
+  "ores_minerals": [
+    {
+      "tin": "1",
+      "copper": "2",
+      "iron": "",
+      "salt": 80
+    }
+  ]
+}
