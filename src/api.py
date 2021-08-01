@@ -6,6 +6,11 @@ import os
 
 app = FastAPI()
 
+try:
+    print(PORT)
+except:
+    print('No var PORT')
+
 origins = [
     "https://coa-calculator.herokuapp.com",
     "https://coa-calculator.herokuapp.com/smithing",
