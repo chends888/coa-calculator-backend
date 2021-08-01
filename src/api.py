@@ -7,6 +7,7 @@ import os
 app = FastAPI()
 
 origins = [
+    "https://coa-calculator-frontend.herokuapp.com",
     "https://coa-calculator-frontend.herokuapp.com/smithing",
     "https://coa-calculator-frontend.herokuapp.com/crafting",
     "https://coa-calculator-frontend.herokuapp.com/cooking"
