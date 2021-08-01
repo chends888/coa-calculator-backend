@@ -24,7 +24,7 @@ exp_data = json.load(exp_data_file)
 
 artisan_data_file = open(os.path.dirname(__file__) + '/../artisan_data.json')
 artisan_data = json.load(artisan_data_file)
-# print(artisan_data)
+
 
 @app.get("/exp", tags=["exp"])
 async def get_todos() -> dict:
