@@ -7,10 +7,10 @@ import os
 app = FastAPI()
 
 origins = [
-    "https://coa-calculator-frontend.herokuapp.com",
-    "https://coa-calculator-frontend.herokuapp.com/smithing",
-    "https://coa-calculator-frontend.herokuapp.com/crafting",
-    "https://coa-calculator-frontend.herokuapp.com/cooking"
+    "https://coa-calculator.herokuapp.com",
+    "https://coa-calculator.herokuapp.com/smithing",
+    "https://coa-calculator.herokuapp.com/crafting",
+    "https://coa-calculator.herokuapp.com/cooking"
 ]
 
 app.add_middleware(
