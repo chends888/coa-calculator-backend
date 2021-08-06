@@ -2,7 +2,8 @@
   "Smithing": {
     "Bronze": {
       "level": "1",
-      "xp": "8",
+      "xp-forge": "5",
+      "xp-smelt": "3",
       "submaterials": {
         "Copper": "2",
         "Tin": "2"
@@ -10,14 +11,16 @@
     },
     "Iron": {
       "level": "10",
-      "xp": "22",
+      "xp-forge": "14",
+      "xp-smelt": "8",
       "submaterials": {
         "Iron": "3"
       }
     },
     "Steel": {
       "level": "20",
-      "xp": "34",
+      "xp-forge": "20",
+      "xp-smelt": "14",
       "submaterials": {
         "Iron": "2",
         "Coal": "1"
@@ -25,7 +28,8 @@
     },
     "Crimsteel": {
       "level": "30",
-      "xp": "155",
+      "xp-forge": "130",
+      "xp-smelt": "25",
       "submaterials": {
         "Crimsteel": "2",
         "Coal": "2"
@@ -33,14 +37,16 @@
     },
     "Gold": {
       "level": "40",
-      "xp": "21260",
+      "xp-forge": "20000",
+      "xp-smelt": "60",
       "submaterials": {
         "Gold": "2"
       }
     },
     "Mythan": {
       "level": "50",
-      "xp": "5100",
+      "xp-forge": "5000",
+      "xp-smelt": "100",
       "submaterials": {
         "Mythan": "10",
         "Coal": "5"
@@ -48,7 +54,8 @@
     },
     "Cobalt": {
       "level": "60",
-      "xp": "15200",
+      "xp-forge": "15000",
+      "xp-smelt": "200",
       "submaterials": {
         "Cobalt": "8",
         "Coal": "5"
@@ -56,7 +63,8 @@
     },
     "Varaxite": {
       "level": "70",
-      "xp": "20350",
+      "xp-forge": "20000",
+      "xp-smelt": "350",
       "submaterials": {
         "Varaxium": "6",
         "Cobalt": "3"
