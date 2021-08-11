@@ -193,6 +193,63 @@
       }
     }
   },
+  "Cooking-Baits": {
+    "Earthworm": {
+      "level": "1",
+      "xp": "15",
+      "submaterials": {}
+    },
+    "Iceworm": {
+      "level": "10",
+      "xp": "82.5",
+      "submaterials": {}
+    },
+    "Corpseworm": {
+      "level": "30",
+      "xp": "375",
+      "submaterials": {}
+    },
+    "Toxic Worm": {
+      "level": "40",
+      "xp": "500",
+      "submaterials": {}
+    },
+    "Sandworm": {
+      "level": "45",
+      "xp": "625",
+      "submaterials": {}
+    },
+    "Beetle": {
+      "level": "50",
+      "xp": "825",
+      "submaterials": {}
+    },
+    "Grasshopper": {
+      "level": "60",
+      "xp": "1525",
+      "submaterials": {}
+    },
+    "Wasp": {
+      "level": "70",
+      "xp": "2000",
+      "submaterials": {}
+    },
+    "Scallop": {
+      "level": "75",
+      "xp": "5000",
+      "submaterials": {}
+    },
+    "Crab": {
+      "level": "85",
+      "xp": "9500",
+      "submaterials": {}
+    },
+    "Bass bait": {
+      "level": "90",
+      "xp": "33000",
+      "submaterials": {}
+    }
+  },
   "Crafting": {
     "Accuracy": {
       "level": "1",
