@@ -197,57 +197,57 @@
     "Earthworm": {
       "level": "1",
       "xp": "15",
-      "submaterials": {}
+      "submaterials": { "Salt": "1" }
     },
     "Iceworm": {
       "level": "10",
       "xp": "82.5",
-      "submaterials": {}
+      "submaterials": { "Salt": "1" }
     },
     "Corpseworm": {
       "level": "30",
       "xp": "375",
-      "submaterials": {}
+      "submaterials": { "Salt": "1" }
     },
     "Toxic Worm": {
       "level": "40",
       "xp": "500",
-      "submaterials": {}
+      "submaterials": { "Salt": "1" }
     },
     "Sandworm": {
       "level": "45",
       "xp": "625",
-      "submaterials": {}
+      "submaterials": { "Salt": "1" }
     },
     "Beetle": {
       "level": "50",
       "xp": "825",
-      "submaterials": {}
+      "submaterials": { "Salt": "1" }
     },
     "Grasshopper": {
       "level": "60",
       "xp": "1525",
-      "submaterials": {}
+      "submaterials": { "Pink Salt": "1" }
     },
     "Wasp": {
       "level": "70",
       "xp": "2000",
-      "submaterials": {}
+      "submaterials": { "Pink Salt": "1" }
     },
     "Scallop": {
       "level": "75",
       "xp": "5000",
-      "submaterials": {}
+      "submaterials": { "Pink Salt": "1" }
     },
     "Crab": {
       "level": "85",
       "xp": "9500",
-      "submaterials": {}
+      "submaterials": { "Pink Salt": "1" }
     },
     "Bass bait": {
       "level": "90",
       "xp": "33000",
-      "submaterials": {}
+      "submaterials": {"Black Salt": "1"}
     }
   },
   "Crafting": {

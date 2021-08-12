@@ -30,6 +30,8 @@ exp_data = json.load(exp_data_file)
 artisan_data_file = open(os.path.dirname(__file__) + '/../artisan_data.json')
 artisan_data = json.load(artisan_data_file)
 
+gathering_data_file = open(os.path.dirname(__file__) + '/../gathering_data.json')
+gathering_data = json.load(gathering_data_file)
 
 @app.get("/exp", tags=["exp"])
 async def get_todos() -> dict:
@@ -38,3 +40,7 @@ async def get_todos() -> dict:
 @app.get("/artisan", tags=["artisan"])
 async def get_todos() -> dict:
     return artisan_data
+
+@app.get("/gathering", tags=["gathering"])
+async def get_todos() -> dict:
+    return gathering_data
