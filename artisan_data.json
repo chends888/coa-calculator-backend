@@ -196,12 +196,12 @@
   "Cooking-Baits": {
     "Earthworm": {
       "level": "1",
-      "xp": "15",
+      "xp": "5",
       "submaterials": { "Salt": "1" }
     },
     "Iceworm": {
       "level": "10",
-      "xp": "82.5",
+      "xp": "",
       "submaterials": { "Salt": "1" }
     },
     "Corpseworm": {
@@ -221,12 +221,12 @@
     },
     "Beetle": {
       "level": "50",
-      "xp": "825",
+      "xp": "375",
       "submaterials": { "Salt": "1" }
     },
     "Grasshopper": {
       "level": "60",
-      "xp": "1525",
+      "xp": "675",
       "submaterials": { "Pink Salt": "1" }
     },
     "Wasp": {
@@ -246,7 +246,7 @@
     },
     "Bass bait": {
       "level": "90",
-      "xp": "33000",
+      "xp": "25833.33",
       "submaterials": {"Black Salt": "1"}
     }
   },
