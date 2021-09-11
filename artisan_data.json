@@ -6,7 +6,7 @@
       "xp-smelt": "3",
       "submaterials": {
         "Copper": "2",
-        "Tin": "2"
+        "Tin Ore": "2"
       }
     },
     "Iron": {
@@ -14,7 +14,7 @@
       "xp-forge": "14",
       "xp-smelt": "8",
       "submaterials": {
-        "Iron": "3"
+        "Iron Ore": "3"
       }
     },
     "Steel": {
@@ -22,7 +22,7 @@
       "xp-forge": "20",
       "xp-smelt": "14",
       "submaterials": {
-        "Iron": "2",
+        "Iron Ore": "2",
         "Coal": "1"
       }
     },
@@ -31,7 +31,7 @@
       "xp-forge": "130",
       "xp-smelt": "25",
       "submaterials": {
-        "Crimsteel": "2",
+        "Crimsteel Ore": "2",
         "Coal": "2"
       }
     },
@@ -40,7 +40,7 @@
       "xp-forge": "20000",
       "xp-smelt": "60",
       "submaterials": {
-        "Gold": "2"
+        "Gold Ore": "320"
       }
     },
     "Mythan": {
@@ -48,7 +48,7 @@
       "xp-forge": "5000",
       "xp-smelt": "100",
       "submaterials": {
-        "Mythan": "10",
+        "Mythan Ore": "10",
         "Coal": "5"
       }
     },
@@ -57,7 +57,7 @@
       "xp-forge": "15000",
       "xp-smelt": "200",
       "submaterials": {
-        "Cobalt": "8",
+        "Cobalt Ore": "8",
         "Coal": "5"
       }
     },
@@ -67,7 +67,7 @@
       "xp-smelt": "350",
       "submaterials": {
         "Varaxium": "6",
-        "Cobalt": "3"
+        "Cobalt Ore": "3"
       }
     }
   },
@@ -273,7 +273,7 @@
       }
     },
     "Wealth": {
-      "level": "40",
+      "level": "20",
       "xp": "40",
       "submaterials": {
         "Applewood": "1"
