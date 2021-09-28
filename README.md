@@ -20,3 +20,8 @@ pip3 install uvicorn
 
 ## Run on develop server:
 `uvicorn src.api:app --reload`
+
+## Deploy to Heroku:
+- Configure Procfile and requirements.txt
+- On Heroku Dashboard select Python Buildpack
+- https://www.youtube.com/watch?v=9gSkdEWx_VA
