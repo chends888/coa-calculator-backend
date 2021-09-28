@@ -12,8 +12,8 @@ origins = [
     # "https://coa-calculator.herokuapp.com/smithing",
     # "https://coa-calculator.herokuapp.com/crafting",
     # "https://coa-calculator.herokuapp.com/cooking",
-    # "http://localhost:3000",
-    # "localhost:3000"
+    "http://localhost:3000",
+    "localhost:3000"
 ]
 
 app.add_middleware(
