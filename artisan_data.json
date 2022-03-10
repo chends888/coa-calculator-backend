@@ -69,6 +69,14 @@
         "Varaxium": "6",
         "Cobalt Ore": "3"
       }
+    },
+    "Magic": {
+      "level": "80",
+      "xp-forge": "26000",
+      "xp-smelt": "400",
+      "submaterials": {
+        "Magic Ore": "9"
+      }
     }
   },
   "Cooking": {
@@ -197,57 +205,79 @@
     "Earthworm": {
       "level": "1",
       "xp": "5",
-      "submaterials": { "Salt": "1" }
+      "submaterials": {
+        "Salt": "1"
+      }
     },
     "Iceworm": {
       "level": "10",
       "xp": "82.5",
-      "submaterials": { "Salt": "1" }
+      "submaterials": {
+        "Salt": "1"
+      }
     },
     "Corpseworm": {
       "level": "30",
       "xp": "375",
-      "submaterials": { "Salt": "1" }
+      "submaterials": {
+        "Salt": "1"
+      }
     },
     "Toxic Worm": {
       "level": "40",
       "xp": "500",
-      "submaterials": { "Salt": "1" }
+      "submaterials": {
+        "Salt": "1"
+      }
     },
     "Sandworm": {
       "level": "45",
       "xp": "625",
-      "submaterials": { "Salt": "1" }
+      "submaterials": {
+        "Salt": "1"
+      }
     },
     "Beetle": {
       "level": "50",
       "xp": "375",
-      "submaterials": { "Salt": "1" }
+      "submaterials": {
+        "Salt": "1"
+      }
     },
     "Grasshopper": {
       "level": "60",
       "xp": "675",
-      "submaterials": { "Pink Salt": "1" }
+      "submaterials": {
+        "Pink Salt": "1"
+      }
     },
     "Wasp": {
       "level": "70",
       "xp": "2000",
-      "submaterials": { "Pink Salt": "1" }
+      "submaterials": {
+        "Pink Salt": "1"
+      }
     },
     "Scallop": {
       "level": "75",
       "xp": "5000",
-      "submaterials": { "Pink Salt": "1" }
+      "submaterials": {
+        "Pink Salt": "1"
+      }
     },
     "Crab": {
       "level": "85",
       "xp": "9500",
-      "submaterials": { "Pink Salt": "1" }
+      "submaterials": {
+        "Pink Salt": "1"
+      }
     },
     "Bass bait": {
       "level": "90",
       "xp": "25833.33",
-      "submaterials": {"Black Salt": "1"}
+      "submaterials": {
+        "Black Salt": "1"
+      }
     }
   },
   "Crafting": {
@@ -322,9 +352,16 @@
         "Olive Logs": "1"
       }
     },
-    "Cursed": {
+    "Ice": {
       "level": "80",
       "xp": "2750",
+      "submaterials": {
+        "Magic Logs": "2"
+      }
+    },
+    "Cursed": {
+      "level": "88",
+      "xp": "4120",
       "submaterials": {
         "Palm Wood": "2"
       }

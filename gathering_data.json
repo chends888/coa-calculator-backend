@@ -35,7 +35,6 @@
       "xp": "350",
       "submaterials": {}
     },
-
     "Gold": {
       "level": "40",
       "xp": "400",
@@ -69,6 +68,11 @@
     "Black Salt": {
       "level": "75",
       "xp": "2500",
+      "submaterials": {}
+    },
+    "Magic": {
+      "level": "80",
+      "xp": "3200",
       "submaterials": {}
     }
   },
@@ -118,9 +122,14 @@
       "xp": "1800",
       "submaterials": {}
     },
-    "Palm Wood": {
+    "Magic Logs": {
       "level": "80",
       "xp": "2600",
+      "submaterials": {}
+    },
+    "Palm Wood": {
+      "level": "90",
+      "xp": "4000",
       "submaterials": {}
     }
   },
