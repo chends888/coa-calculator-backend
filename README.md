@@ -19,6 +19,13 @@ pip3 install uvicorn
 ```
 
 ## Run on develop server:
+If venv is not activated:
+
+`source venv/bin/activate && uvicorn src.api:app --reload`
+
+
+Otherwise:
+
 `uvicorn src.api:app --reload`
 
 ## Deploy to Heroku:
