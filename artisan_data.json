@@ -366,5 +366,178 @@
         "Palm Wood": "2"
       }
     }
+  },
+  "Tailoring": {
+    "Wand": {
+      "level": "1",
+      "xp": "12",
+      "submaterials": {
+        "Oak Logs": "2",
+        "Magic Essence": "15"
+      }
+    },
+    "Paper": {
+      "level": "1",
+      "xp": "1",
+      "submaterials": {
+        "Pine Logs": "1"
+      }
+    },
+    "Book": {
+      "level": "3",
+      "xp": "5",
+      "submaterials": {
+        "Paper": "5",
+        "Leather": "1"
+      }
+    },
+    "Ember Tome": {
+      "level": "5",
+      "xp": "12",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Fire": "1",
+        "Magic Essence": "1"
+      }
+    },
+    "Leech Tome": {
+      "level": "9",
+      "xp": "20",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Nature": "1",
+        "Magic Essence": "1"
+      }
+    },
+    "Icicle Tome": {
+      "level": "15",
+      "xp": "28",
+      "submaterials": {
+        "Book": "1",
+        "Ice Relic": "1",
+        "Magic Essence": "1"
+      }
+    },
+    "Fire Staff": {
+      "level": "20",
+      "xp": "500",
+      "submaterials": {
+        "Orbs of Light": "1",
+        "Relic of Fire": "1",
+        "Oak Logs": "3",
+        "Magic Essence": "25"
+      }
+    },
+    "Ice Staff": {
+      "level": "20",
+      "xp": "500",
+      "submaterials": {
+        "Orbs of Light": "1",
+        "Ice Relic": "1",
+        "Oak Logs": "3",
+        "Magic Essence": "25"
+      }
+    },
+    "Nature Staff": {
+      "level": "20",
+      "xp": "500",
+      "submaterials": {
+        "Orbs of Light": "1",
+        "Relic of Nature": "1",
+        "Oak Logs": "3",
+        "Magic Essence": "25"
+      }
+    },
+    "Cursed Staff": {
+      "level": "20",
+      "xp": "500",
+      "submaterials": {
+        "Orbs of Light": "1",
+        "Cursed Relic": "1",
+        "Oak Logs": "3",
+        "Magic Essence": "25"
+      }
+    },
+    "Haunt Tome": {
+      "level": "20",
+      "xp": "40",
+      "submaterials": {
+        "Book": "1",
+        "Cursed Relic": "1",
+        "Magic Essence": "1"
+      }
+    },
+    "Ignite Tome": {
+      "level": "29",
+      "xp": "100",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Fire": "1",
+        "Magic Essence": "5"
+      }
+    },
+    "Drain Tome": {
+      "level": "33",
+      "xp": "115",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Nature": "1",
+        "Magic Essence": "3"
+      }
+    },
+    "Freeze Tome": {
+      "level": "40",
+      "xp": "200",
+      "submaterials": {
+        "Book": "1",
+        "Ice Relic": "1",
+        "Magic Essence": "3"
+      }
+    },
+    "Curse Tome": {
+      "level": "60",
+      "xp": "900",
+      "submaterials": {
+        "Book": "1",
+        "Cursed Relic": "1",
+        "Magic Essence": "3"
+      }
+    },
+    "Inferno Tome": {
+      "level": "68",
+      "xp": "1380",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Fire": "1",
+        "Magic Essence": "10"
+      }
+    },
+    "Consume Tome": {
+      "level": "76",
+      "xp": "2110",
+      "submaterials": {
+        "Book": "1",
+        "Relic of Nature": "1",
+        "Magic Essence": "6"
+      }
+    },
+    "Blizzard Tome": {
+      "level": "80",
+      "xp": "2750",
+      "submaterials": {
+        "Book": "1",
+        "Ice Relic": "1",
+        "Magic Essence": "6"
+      }
+    },
+    "Torture Tome": {
+      "level": "92",
+      "xp": "4300",
+      "submaterials": {
+        "Book": "1",
+        "Cursed Relic": "1",
+        "Magic Essence": "6"
+      }
+    }
   }
 }
