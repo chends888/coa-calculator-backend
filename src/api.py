@@ -9,11 +9,9 @@ import math
 app = FastAPI()
 
 origins = [
-    "https://coa-calculator.herokuapp.com",
+    "https://coa-calculator-chen.vercel.app",  # Vercel production domain
     "http://localhost:3000",
     "localhost:3000",
-    # add your Vercel domain(s) here, e.g.:
-    # "https://coa-calculator.vercel.app",
 ]
 
 app.add_middleware(
