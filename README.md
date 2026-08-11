@@ -8,14 +8,8 @@ This is the back end of a calculator built with FastAPI(Python) to support calcu
 ## Setup:
 ```
 python3 -m venv venv
-
 source venv/bin/activate
-
-export PYTHONPATH=$PWD
-
-pip3 install fastapi
-
-pip3 install uvicorn
+pip install -r requirements.txt
 ```
 
 ## Run on develop server:
