@@ -79,6 +79,11 @@
       "level": "85",
       "xp": "7500",
       "submaterials": {}
+    },
+    "Obsidian": {
+      "level": "90",
+      "xp": "9000",
+      "submaterials": {}
     }
   },
   "Woodcutting": {
@@ -137,6 +142,11 @@
       "xp": "7250",
       "submaterials": {}
     },
+    "Ironbark": {
+      "level": "87",
+      "xp": "8250",
+      "submaterials": {}
+    },
     "Pearwood": {
       "level": "90",
       "xp": "9000",
@@ -147,6 +157,7 @@
       "xp": "14500",
       "submaterials": {}
     }
+    
   },
   "Fishing": {
     "Anchovies": {

@@ -90,6 +90,11 @@
       "xp": "560",
       "gold": "220"
     },
+    "Bearlet": {
+      "level": "45",
+      "xp": "800",
+      "gold": "94"
+    },
     "Scorpion": {
       "level": "45",
       "xp": "700",
@@ -124,6 +129,11 @@
       "level": "57",
       "xp": "1850",
       "gold": "415"
+    },
+    "Giant Crow": {
+      "level": "60",
+      "xp": "225",
+      "gold": "26"
     },
     "Rock Fiend": {
       "level": "60",
@@ -269,6 +279,11 @@
       "level": "135",
       "xp": "900",
       "gold": "400"
+    },
+    "Deserto Wolf": {
+      "level": "140",
+      "xp": "13500",
+      "gold": "164"
     },
     "Sandstone Golem": {
       "level": "150",

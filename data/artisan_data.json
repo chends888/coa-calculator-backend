@@ -144,11 +144,27 @@
         "Salt": "1"
       }
     },
+    "Bear": {
+      "level": "50",
+      "xp": "1050",
+      "submaterials": {
+        "Bear Meat": "1",
+        "Salt": "1"
+      }
+    },
     "Bass": {
       "level": "60",
       "xp": "1350",
       "submaterials": {
         "Bass": "1",
+        "Pink Salt": "1"
+      }
+    },
+    "Polar Bear": {
+      "level": "65",
+      "xp": "1500",
+      "submaterials": {
+        "Polar Bear Meat": "1",
         "Pink Salt": "1"
       }
     },
@@ -360,6 +376,14 @@
         "Olive Logs": "1"
       }
     },
+    "Wisdom": {
+      "level": "77",
+      "xp": "3600",
+      "submaterials": {
+        "Stinkwood": "1",
+        "Magic Logs": "1"
+      }
+    },
     "Ice": {
       "level": "80",
       "xp": "2750",
@@ -379,6 +403,13 @@
       "xp": "4250",
       "submaterials": {
         "Pear Wood": "1"
+      }
+    },
+    "Unbroken": {
+      "level": "87",
+      "xp": "5000",
+      "submaterials": {
+        "Ironbark": "1"
       }
     },
     "Affliction": {
