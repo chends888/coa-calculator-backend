@@ -9,11 +9,9 @@ import math
 app = FastAPI()
 
 origins = [
-    "https://coa-calculator.herokuapp.com",
+    "https://coa-calculator-chen.vercel.app",  # Vercel production domain
     "http://localhost:3000",
     "localhost:3000",
-    # add your Vercel domain(s) here, e.g.:
-    # "https://coa-calculator.vercel.app",
 ]
 
 app.add_middleware(
@@ -23,6 +21,17 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+@app.middleware("http")
+async def add_no_cache_headers(request, call_next):
+    response = await call_next(request)
+    # Prevent Cloudflare (sitting in front of Render) from caching API
+    # responses at the edge. A cached response can be replayed to a
+    # different Origin than the one it was generated for, silently
+    # stripping/mismatching CORS headers for later requests.
+    response.headers["Cache-Control"] = "no-store"
+    return response
 
 # --- data loading ---
 exp_data_file = open(os.path.dirname(__file__) + '/../data/exp_data.json')
