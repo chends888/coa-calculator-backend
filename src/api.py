@@ -9,9 +9,11 @@ import math
 app = FastAPI()
 
 origins = [
-    "https://coa-calculator-chen.vercel.app",  # Vercel production domain
+    "https://coa-calculator.herokuapp.com",
     "http://localhost:3000",
     "localhost:3000",
+    # add your Vercel domain(s) here, e.g.:
+    # "https://coa-calculator.vercel.app",
 ]
 
 app.add_middleware(
@@ -228,11 +230,14 @@ async def calculate(req: CalculateRequest) -> Dict[str, Any]:
     if submaterials:
         subelements = []
         for name, qty in submaterials.items():
-            if name == req.element_key:
-                # Some skills (e.g. Cooking) list the resource itself as one
+            if req.skill == "Cooking" and name == req.element_key:
+                # Cooking (e.g. Anchovies) lists the resource itself as one
                 # of its own "submaterials" alongside genuine ingredients
-                # (e.g. Anchovies -> {"Anchovies": 1, "Salt": 1}). Skip it here
-                # since it's already shown on the primary line above.
+                # (e.g. Anchovies -> {"Anchovies": 1, "Salt": 1}) — that's a
+                # genuine duplicate of the primary line, so skip it here.
+                # Other skills (e.g. Smithing's Naturite -> {"Naturite": 1})
+                # use a self-referencing submaterial as their only real line,
+                # so this skip must not apply to them.
                 continue
             qty = to_float(qty)
             if req.skill == "Smithing":
