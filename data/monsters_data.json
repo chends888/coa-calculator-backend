@@ -5,6 +5,11 @@
       "xp": "8",
       "gold": "1"
     },
+    "Chicken": {
+      "level": "1",
+      "xp": "10",
+      "gold": "10"
+    },
     "Slime": {
       "level": "4",
       "xp": "16",
@@ -20,9 +25,19 @@
       "xp": "46",
       "gold": "7"
     },
+    "Baby Seedling": {
+      "level": "10",
+      "xp": "40",
+      "gold": "10"
+    },
     "Forest Spider": {
       "level": "12",
       "xp": "55",
+      "gold": "8"
+    },
+    "Cow": {
+      "level": "14",
+      "xp": "50",
       "gold": "8"
     },
     "Forest Bat": {
@@ -140,6 +155,11 @@
       "xp": "2750",
       "gold": "450"
     },
+    "Armoured Bear": {
+      "level": "75",
+      "xp": "3000",
+      "gold": "600"
+    },
     "Arosite Scarab": {
       "level": "75",
       "xp": "2850",
@@ -205,15 +225,20 @@
       "xp": "5270",
       "gold": "700"
     },
+    "Poltergeist": {
+      "level": "100",
+      "xp": "250",
+      "gold": "100"
+    },
     "Tormented Venomling": {
       "level": "100",
       "xp": "7600",
       "gold": "650"
     },
-    "Poltergeist": {
-      "level": "100",
-      "xp": "250",
-      "gold": "100"
+    "Defiled Scarab": {
+      "level": "105",
+      "xp": "8000",
+      "gold": "650"
     },
     "Anubis Elite": {
       "level": "110",
@@ -250,10 +275,10 @@
       "xp": "11500",
       "gold": "650"
     },
-    "Disciple of Nydarax": {
-      "level": "200",
-      "xp": "37500",
-      "gold": "200"
+    "Armoured Bear Elite": {
+      "level": "175",
+      "xp": "15500",
+      "gold": "1050"
     }
   }
 }
