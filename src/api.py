@@ -22,17 +22,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-@app.middleware("http")
-async def add_no_cache_headers(request, call_next):
-    response = await call_next(request)
-    # Prevent Cloudflare (sitting in front of Render) from caching API
-    # responses at the edge. A cached response can be replayed to a
-    # different Origin than the one it was generated for, silently
-    # stripping/mismatching CORS headers for later requests.
-    response.headers["Cache-Control"] = "no-store"
-    return response
-
 # --- data loading ---
 exp_data_file = open(os.path.dirname(__file__) + '/../data/exp_data.json')
 exp_data = json.load(exp_data_file)
