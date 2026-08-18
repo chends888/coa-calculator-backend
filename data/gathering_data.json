@@ -776,6 +776,14 @@
         "Dawnblossom": "3",
         "Disdained Eye": "5"
       }
+    },
+    "Liquid Grace": {
+      "level": "100",
+      "xp": "80000",
+      "submaterials": {
+        "Frostweed": "3",
+        "Severed Ear": "5"
+      }
     }
   }
 }
