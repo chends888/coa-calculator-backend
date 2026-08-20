@@ -35,6 +35,9 @@ gathering_data = json.load(gathering_data_file)
 monsters_data_file = open(os.path.dirname(__file__) + '/../data/monsters_data.json')
 monsters_data = json.load(monsters_data_file)
 
+gold_chest_data_file = open(os.path.dirname(__file__) + '/../data/gold_chest_data.json')
+gold_chest_data = json.load(gold_chest_data_file)
+
 # Your JSON files are nested by skill, e.g. artisan_data["Smithing"]["Bronze"].
 # Merge all top-level skill keys from all three files into one lookup so the
 # frontend only needs to send a skill name, not which file it lives in.
@@ -67,6 +70,11 @@ async def get_gathering() -> dict:
 @app.get("/monsters", tags=["monsters"])
 async def get_monsters() -> dict:
     return monsters_data
+
+
+@app.get("/gold-chest", tags=["gold-chest"])
+async def get_gold_chest():
+    return gold_chest_data
 
 
 # --- calculation endpoint ---
@@ -266,15 +274,5 @@ async def calculate(req: CalculateRequest) -> Dict[str, Any]:
             "size": inv_size,
             "value": math.ceil(exp_gap / xp / inv_size) if xp else None,
         }
-
-    # --- Fishing / Bass bait special case ---
-    if req.skill in ("Fishing", "Fishing-Baits") and req.element_key == "Bass bait" and req.lolli_price is not None:
-        xp = apply_boosts(element_data["xp"], boosts, equip)
-        if xp:
-            trips = math.ceil(exp_gap / xp / 34)
-            result["remote_bank"] = {
-                "trips": trips,
-                "price": math.ceil(trips * req.lolli_price * 0.4),
-            }
 
     return result
